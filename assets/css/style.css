@@ -1,0 +1,116 @@
+@font-face {
+    font-family: Shojumaru;
+    src: url(/assets/fonts/Shojumaru-Regular.ttf);
+}
+  
+body {
+    padding-top:50px;
+}   
+   
+   #welcome {
+       font-size:.5em;
+   }
+  .toprow {
+      background-image: url("/assets/images/beltandgi.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height:700px;
+      opacity:1;
+      
+  }
+
+    .colleft {
+       font-family: Shojumaru;
+       font-size:4em;
+       text-align:center;
+       text-shadow: 2px 2px 5px white;
+       opacity:.75;
+           
+    }
+    
+    #jmk {
+        height:400px;
+       
+    }
+    
+    .row2 {
+        font-size:20px;
+        padding-top:75px;
+        height: 100%;
+        background-color: beige;
+        border-top-width: 1;
+        border-top-style: groove;
+        border-top-color:black;
+    }
+    
+    .scroll {
+        text-indent:15px;
+        color:white;
+        font-size:30px;
+        text-shadow:1px 1px 1px black;
+        
+    }
+    
+    .row3 {
+        height: 600px;
+        background-color: white;
+        border-top-width: .5;
+        border-top-style: inset;
+        border-top-color: #e5e5cc;
+    }
+    .row2 h1 {
+        text-align:center;
+        font-family: shojumaru;
+        font-size:2em;
+    }
+    .about {
+        width:800px;
+        text-indent: 15px;
+        padding-left:50px;
+        padding-top:50px;
+         
+    }
+    .abouttitle {
+        position:relative;
+        top:-50px;
+        margin-bottom:100px;
+    }
+    #chung {
+        position:relative;
+        left:50px;
+        border-width:.5px;
+        border-color:black;
+        border-style:solid;
+    }
+    .JMK1 {
+        position:relative;
+        top:-25px;
+        text-indent:15px;
+        }
+    .JMK1 p {
+        text-align:justify;
+        font-size:20px;
+    }
+    .JMK1 h3 {
+        text-align:center;
+        text-decoration: underline;
+    }
+    figcaption {
+        text-align:left;
+        font-size:20px;
+    }
+    .kongsoo {
+        background-color:white;
+        padding:10px;
+        border-style: double;
+        margin-bottom:20px;
+        position:relative;
+        top:-50px;
+    }
+    .owen {
+        padding:50px;
+    }
+    #dadkarate {
+        margin:50px;
+        margin-bottom:10px;
+    }
