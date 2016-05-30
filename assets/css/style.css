@@ -1,3 +1,4 @@
+@media screen and (min-width: 700px) {
 @font-face {
     font-family: Shojumaru;
     src: url(/assets/fonts/Shojumaru-Regular.ttf);
@@ -5,17 +6,19 @@
   
 body {
     padding-top:50px;
-}   
+} 
+
+caption {
+    font-size:12px;
+}
    
    #welcome {
        font-size:.5em;
    }
-  .toprow {
-      background-image: url("/assets/images/beltandgi.jpg");
-      background-repeat: no-repeat;
-      background-size: cover;
-      height:700px;
-      opacity:1;
+  
+  article {
+      margin:35px;
+      text-align:justify;
       
   }
 
@@ -33,6 +36,10 @@ body {
        
     }
     
+    .row {
+        background-color:rgba(0, 0, 0, 0.1);
+    }
+    
     .row2 {
         font-size:20px;
         padding-top:75px;
@@ -44,12 +51,14 @@ body {
     }
     
     .scroll {
+        
         text-indent:15px;
         color:white;
         font-size:30px;
         text-shadow:1px 1px 1px black;
         
     }
+   
     
     .row3 {
         height: 600px;
@@ -76,11 +85,17 @@ body {
         margin-bottom:100px;
     }
     #chung {
-        position:relative;
-        left:50px;
+         
         border-width:.5px;
         border-color:black;
         border-style:solid;
+        width:150px;
+        margin-right:50px;
+        
+    }
+    .captionchung {
+        text-align:center;
+        font-size:12;
     }
     .JMK1 {
         position:relative;
@@ -91,13 +106,16 @@ body {
         text-align:justify;
         font-size:20px;
     }
-    .JMK1 h3 {
+    #usjmka {
+        font-size: 1.5em;
+        margin-left: 25%;
         text-align:center;
         text-decoration: underline;
+        
     }
     figcaption {
         text-align:left;
-        font-size:20px;
+        font-size:15px;
     }
     .kongsoo {
         background-color:white;
@@ -114,3 +132,22 @@ body {
         margin:50px;
         margin-bottom:10px;
     }
+    /* Top row */
+    
+    .toprow {
+      background-image: url("/assets/images/beltandgi.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height:700px;
+      opacity:1;
+      
+    }
+  
+    #purpose {
+        font-size: 1.5em;
+        padding-left: 25%;
+        padding-top: 200px;
+        
+    }  
+    
+}
